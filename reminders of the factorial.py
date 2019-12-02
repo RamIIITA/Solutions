@@ -1,4 +1,6 @@
+#code is written in python3
 #Fac Function results facotrial for a particular number
+
 def fact(n):
     Sum = 1
     if n<3:
