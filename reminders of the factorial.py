@@ -48,5 +48,7 @@ def fun(n):
     if n<2:
         return str(1)+" "+str(0)
     return sol(n)
-    
-print(fun(21))
+
+if __name__=='__main__':
+    n = int(input("Enter the number: "))
+    print(fun(n))
